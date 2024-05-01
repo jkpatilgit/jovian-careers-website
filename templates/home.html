@@ -23,7 +23,7 @@
     <h2 class="text-center mt-2 mb-4"> Open Positions.....</h2>
       <div>
         {% for job in jobs %}
-          <div> {{job['title']}}</div>
+         {% include 'jobitem.html' %}
         {% endfor %}
       </div>  
     
